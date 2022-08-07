@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    font-family: "Allerta";
+    font-weight: 100;
+}
+
+#navMid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+#navMid>div:first-child{
+    border-bottom: 2px solid #000;
+}
+
+#navMid>div>h4{
+    font-size: 20px;
+}
+
+#navEnd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#midWhole{
+    margin: 40px ;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+}
+
+#monstera{
+    list-style: none;
+    display: inline;
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: 90px;
+    line-height: 1;
+    color: #000;
+}
+
+#midWholePart11>div>ul>li:nth-child(3){
+    font-size: 19px;
+    font-family: 'Allerta';
+}
+
+#midWholePart11>div>ul>li:nth-child(2){
+    font-size: 19px;
+    font-family: 'Allerta';
+}
+#midWholePart11>div>ul>li:nth-child(4){
+    margin-bottom: 40px;
+    font-size: 19px;
+    font-family: 'Allerta';
+}
+
+#midWholePart121{
+    background-color: #466D50;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 40px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Allerta';
+    cursor: pointer;
+    font-weight: lighter;
+    margin-bottom: 90px;
+}
+
+#midWholePart13{
+    display: flex;
+    gap: 30px;
+}
+
+.midWholePart13Parts{
+    display: flex;
+    gap: 10px;
+}
+
+.midWholePart13Parts>div>h4{
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.midWholePart13Parts>div>p.text{
+    font-size: 11px;
+    text-align: left;
+    line-height: 1.1;
+    color: #555252;
+}
+
+#imgMain{
+    width: 100%;
+}
+
+#midWhole>div{
+    width: 50%;
+}
+
+ul>li:first-child::marker{
+    font-size: 22px;
+}
